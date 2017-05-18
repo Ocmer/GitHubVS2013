@@ -10,7 +10,28 @@ namespace Versiebeheer
     {
         static void Main(string[] args)
         {
-            Console.Write("Hello World!");
+            int priemteller = 0;
+            int invoer;
+            
+            Console.Write("Geef een getal in: ");
+            invoer = Convert.ToInt16(Console.ReadLine());
+            
+            for (int teller = 1; teller <= invoer; teller ++)
+            {
+                if (invoer % teller = 0)
+                {
+                    priemteller ++;
+                }
+            }
+            
+            if (priemteller = 2)
+            {
+                Console.WriteLine("{0} is een priemgetal.", invoer.ToString());
+            }
+            else
+            {
+                Console.WriteLine("{0} is geen priemgetal.", invoer.ToString())
+            }
             Console.ReadLine();
         }
     }
