@@ -18,19 +18,19 @@ namespace Versiebeheer
             
             for (int teller = 1; teller <= invoer; teller ++)
             {
-                if (invoer % teller = 0)
+                if (invoer % teller == 0)
                 {
                     priemteller ++;
                 }
             }
             
-            if (priemteller = 2)
+            if (priemteller == 2)
             {
                 Console.WriteLine("{0} is een priemgetal.", invoer.ToString());
             }
             else
             {
-                Console.WriteLine("{0} is geen priemgetal.", invoer.ToString())
+                Console.WriteLine("{0} is geen priemgetal.", invoer.ToString());
             }
             Console.ReadLine();
         }
